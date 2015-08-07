@@ -1,0 +1,50 @@
+<!doctype html>     
+<!-- 
+FILE NAME: Tennis_Sojung.html
+WRITTEN BY: Sojung Lee
+DATE: 20 December 2013
+PURPOSE: For CS307, Final Project
+-->
+<html>
+   <head>
+      <title>Sojung's Final Project</title>
+      <meta charset="utf-8">
+      <link type="text/css" href="style.css" rel="stylesheet">
+   </head>
+   <body>
+   		<h2> CS307 Final Project </h2>
+   		<h3> by Sojung Lee </h3>
+   		<br>
+   		<br>
+   		<Br><br>
+   		<b>Description: </b>
+   		<br>I used material and lighting, texture mapping, and transparency
+   		to create this scene. <br><br>
+   		<img src = "Screenshot1.png" alt = ""> <br><br>
+   		The interaction capabilities look like this: <br><br>
+   		<embed src="myproject.mov"
+   			pluginspage="http://quicktime.apple.com"
+       		cache=true
+       		height=610 width=800
+       		controller=true
+       		loop=false
+       		autoplay=false> <br><br>
+
+       	The tennis ball uses the GlobeTextured python file we saw in class. It is texture<br>mapped using a file found from the internet - seamless. <br><br>
+       	<img src = "TennisBall.png" alt = ""> <br><br>
+
+       	Scorecards are made using twCylinders for the stand, and four torus objects for<br> the rings. Since it is metal it should have a higher specularity and shininess<br>ratio. Quads are texture mapped with custom textures showing set and game cards. <br><br>
+       	<img src = "ScoreCards.png" alt = ""> <br><br>
+
+       	The following is the tennis racquet object from the creative scene assignment. It<br> uses quad strips in order to connect the frame together. <br><br> 
+       	<img src = "TennisRacquet.png" alt = ""> <br><br>
+
+       	In order to create a sky effect, Yang's skyDome from contributions was edited for<br>the size of the tennis court. It was also texture mapped with a different sky<br>texture. The edges of the half-dome leaves space in between the court, so the<br>ground was colored with similar color to the grass in the texture. <br><br>
+       	<img src = "SkyDome.png" alt = ""> <br><br>
+
+       	The court itself was built using GL_QUADS, two blue ones layered on top of each<br>other for the inner and outer court areas. Depth had to be adjusted sligthly in<br>order to properly display two overlapped quads. Lines were made using GL_LINES.<br>The net and the fence both have transparent alpha channels in the png files, using<br>Hye Soo's teapot as an example. <br><br>
+       	<img src = "Court.png" alt = ""> <br><br>
+   </body>
+   
+
+</html>
