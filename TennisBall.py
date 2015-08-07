@@ -10,7 +10,7 @@ def drawBall():
     glEnable(GL_TEXTURE_2D)
     glBindTexture(GL_TEXTURE_2D, 2)
     glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL)
-    twLoadTexture(2, "TennisBallTexture.ppm")
+    twLoadTexture(2, "/textures/TennisBallTexture.ppm")
     GlobeTextured.solidGlobe(.2,20,20)    #Tennis ball with a radius of 0.11 feet, or 1.35 inches
     glDisable(GL_TEXTURE_2D)
 

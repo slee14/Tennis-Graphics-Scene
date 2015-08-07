@@ -87,7 +87,7 @@ def drawFencePlane():
 	glDepthMask(GL_FALSE)
 	glDisable(GL_LIGHTING)
 	glEnable(GL_TEXTURE_2D)
-	setFenceTex("chainlink.png.raw", 400,466)
+	setFenceTex("/textures/chainlink.png.raw", 400,466)
 	glColor4f(1,1,1,1)
 
 	glBegin(GL_QUADS)

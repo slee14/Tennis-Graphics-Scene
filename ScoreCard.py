@@ -80,10 +80,10 @@ def drawCards(smallSize, bigSize):
 #cards is 0.4 unites
 def drawAll():
 	stand()
-	twLoadTexture(1, "gameBlack.ppm")
-	twLoadTexture(4, "gameRed.ppm")
-	twLoadTexture(2, "setBlack.ppm")
-	twLoadTexture(3, "setRed.ppm")
+	twLoadTexture(1, "/textures/gameBlack.ppm")
+	twLoadTexture(4, "/textures/gameRed.ppm")
+	twLoadTexture(2, "/textures/setBlack.ppm")
+	twLoadTexture(3, "/textures/setRed.ppm")
 
 	drawCards(0.2,0.4)
 
